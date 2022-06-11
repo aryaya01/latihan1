@@ -1,0 +1,94 @@
+body{
+    background: black;
+}
+.template{
+    width: 100%;
+    height: 800px;
+    background-color: black;
+    }
+    .template .header{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    }
+    .template .header .jarak img{
+        width: 298px;
+        height: 71px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .template .menu{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    margin: 0;
+    }
+    .template .menu ul{
+    margin: 0;
+    }
+    .template .menu ul li{
+    float: left;
+    list-style: none;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-decoration: none;
+    }
+    .menu li a{
+        color: white;
+    }
+    .menu li a:hover{
+        color: gray;
+        text-decoration: none;
+        cursor:pointer;
+    }
+    .template .badan .sidebar{
+    width: 25%;
+    height: 600px;
+    background-color: black;
+    float: left;
+    }
+    .sidebar li{
+        list-style: none;
+        padding: 10px;
+    }
+    .sidebar li img{
+        width: 50%;
+        box-shadow: 0 4px 8px 2px rgba(255,255,255,0.7);
+    }
+    .template .badan .content{
+    width: 75%;
+    height: 600px;
+    background-color: black;
+    float: left;
+    }
+    .content img{
+        width: 100%;
+    }
+    .content .isi  {
+        position: absolute;
+        color: white;
+        top: 50%;
+    }
+    .isi p{
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+    }
+    .isi h1{
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+    }
+    .template .footer{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    }
+    .footer p{
+        text-align: center;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 1px;
+    }
+    
